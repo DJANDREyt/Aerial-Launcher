@@ -6,6 +6,7 @@ on:
       - feature/current-alerts
     tags:
       - 'v*'
+  workflow_dispatch: # Makes the workflow manually runnable
 
 jobs:
   publish:
